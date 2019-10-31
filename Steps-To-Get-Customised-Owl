@@ -1,0 +1,28 @@
+Do follow the Steps To Get Customised Carousel - :)
+	1- We need to install the dependency or library of slick slider carousel in our project.
+		Step 1.1 - To install this slick carousel library.
+			
+			"npm install slick-carousel --save"
+			"npm install ngx-slick-carousel --save"
+		
+		Step 1.2 - Specified import in your app.module.ts
+
+			"import { SlickCarouselModule } from 'ngx-slick-carousel';"
+
+		Step 1.3 - Do Specify the module in imports array
+				"SlickCarouselModule",
+
+		Step 1.4 - Open angular.json file and Specify the path in style array and js array
+			"styles": [
+              "src/styles.scss",
+              "node_modules/slick-carousel/slick/slick.scss",
+              "node_modules/slick-carousel/slick/slick-theme.scss"
+            ],
+
+			  "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js"
+            ],	
+
+		Step 1.6 - 	Copy the code as defined by file name
+			

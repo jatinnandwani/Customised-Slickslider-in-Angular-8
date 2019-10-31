@@ -1,0 +1,141 @@
+.best-selling-info{
+    margin-top: 20px; 
+}
+
+.best-selling-header{
+    font-size: 18px;
+    font-weight: 501;
+    margin: auto;
+    
+}
+.cus-slide-container{
+    border: 1px solid #eee;
+    padding: 15px;
+    margin: auto;
+}
+
+.view-all-best-selling a{
+     font-size: 14px;
+    color: red;
+    font-weight: bold;
+}
+
+.best-selling-slider-wrapper{
+    margin: 20px 0 0 0;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}
+
+.best-selling-offer{
+    background-color: #51aa1b;
+    border-radius: 3px;
+    border: 1px solid #51aa1b;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 501;
+    line-height: 1;
+    margin-top: 1px;
+    padding: 3px 5px 2px;
+    z-index: 1;
+}
+
+.cus-slider-img {
+    width: 60%;
+    margin: auto;
+}
+
+.best-selling-item-name{
+    color: #666;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 0;
+    word-break: break-word;
+    height: 38px;
+}
+.best-selling-item-quantity{
+    color: #666;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.best-selling-item-price{
+    color: black;
+    margin-left: 12px;
+    margin-top: 8px;
+}
+
+.best-amount{
+    margin-block: 0px;
+}
+
+.pre-amount{
+    text-decoration: line-through;
+    font-size: 13px;
+    color: #666;    
+}
+
+.button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+
+  .button3:hover {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .button {
+    background-color: white;
+    border: 1px solid #f19c77;;
+    color: #e96125;;;
+    padding: 6px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 6px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 88%;
+    border-radius: 68px;
+    font-weight: 480;
+  }
+
+  .club-pirce-best-selling{
+      margin-left: 12px;
+      background: #edfbfd;
+      border: 1px solid #92dee7;
+      font-size: 12px;
+      color: #07aec1;
+      border-radius: 3px;
+  }
+
+  .club-img{
+    width: 14%;
+    padding: 0px 6px 3px 10px;
+    display: inline-block;
+  }
+  .club-price-arrow{
+      float: right;
+      padding: 2px 6px 4px 10px;
+  }
+
+  .button .slick-next slick-arrow{
+      right: 20px;
+  }
+
+  .slick-next {
+    right: -45px !important;
+}
+.cus-next-slide{
+    background:red;
+}
+
+
+

@@ -1,0 +1,63 @@
+<div class="best-selling-info">
+   <div class="row">
+      <div class="col-md-6">
+            <p class="best-selling-header">Best Selling Items</p>
+      </div>
+      <div class="col-md-6 view-all-best-selling">
+            <a class="pull-right">View all  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+      </div>  
+               
+   </div>  
+</div>
+
+
+<!-- <div class="best-selling-info">
+                      <div class="best-selling-header">
+                         <p class="">Best Selling Items</p>
+                      </div>
+                      <div class="view-all-best-selling">
+                         <a class="">View all  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                      </div>
+</div> -->
+<div class="wrapper">
+      <div class="best-selling-slider-wrapper">
+            <ngx-slick-carousel class="carousel" 
+            #slickModal="slick-carousel" 
+            [config]="slideConfig" 
+            (init)="slickInit($event)"
+            (breakpoint)="breakpoint($event)"
+            (afterChange)="afterChange($event)"
+            (beforeChange)="beforeChange($event)" current-index="" currentLeft="">
+            <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+               <div class="cus-slide-container">
+                  <div class="best-selling-offer">{{ slide.discount}}</div> 
+                  <div class="cus-slider-img">
+                     <img src="{{ slide.img }}" alt="" width="100%">
+                  </div>
+                  <div class="best-selling-item-name">
+                     <p class="">{{ slide.description }} </p>
+                  </div>
+                  <div class="best-selling-item-quantity">
+                     <p class="">{{ slide.quantity}}</p>
+                  </div>
+                  <div class="best-selling-item-price">
+                     <div class="row">
+
+                     <div class="col-md-4">
+                           <p class="best-amount">{{ slide.amount | currency: 'INR':true : '1.0-0'}}</p>
+                           <p class="pre-amount">{{ slide.amount | currency: 'INR':true : '1.0-0'}}</p>
+                     </div>
+                     <div class="col-md-8">
+                           <button class="button button3">Add To Cart</button>
+                     </div>
+                     </div>
+                  </div>
+                  <div class="club-pirce-best-selling">
+                           <img class="club-img" src="/assets/images/club-price.png"/>Club Price: {{ slide.clubprice | currency: 'INR':true : '1.0-0' }}
+                  <span class="club-price-arrow"><i class="fa fa-chevron-right"></i></span>
+                  </div>
+                  </div> 
+            </div>
+            </ngx-slick-carousel>
+      </div>
+</div>
